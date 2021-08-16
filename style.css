@@ -49,3 +49,11 @@ button{
     font-size: x-large;
     font-weight: bold;
 }
+@media screen and (max-width:576px) {
+    .container{
+        max-width: 300px;}
+        h1{
+            text-align: center;
+            font-size: large;
+        }
+}
